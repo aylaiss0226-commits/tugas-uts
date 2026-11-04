@@ -58,8 +58,9 @@ Pengguna memasukkan email dan password lalu menekan tombol **Login**.
 - Jika berhasil, data pengguna disimpan di `sessionStorage` lalu pengguna diarahkan ke dashboard.
 - Tombol **Lupa Password** dan **Daftar** membuka modal box. Pendaftaran memeriksa panjang nama, format email, email yang belum terpakai, password minimal 6 karakter, dan kecocokan konfirmasi password.
 
-<img width="910" height="396" alt="Screenshot 2026-11-04 111934" src="https://github.com/user-attachments/assets/6ba6bb1e-e02a-4202-bc4e-c3f10255c57f" />
-![Modal daftar](screenshots/modal-daftar.png)
+<img width="902" height="400" alt="Screenshot 2026-11-04 110327" src="https://github.com/user-attachments/assets/beea120e-4d31-480c-b4ff-af3f2d07e3cd" />
+<img width="910" height="399" alt="Screenshot 2026-11-04 111057" src="https://github.com/user-attachments/assets/20befb9e-df58-411d-b8f1-1e38c0d2035b" />
+
 
 ### 2. Dashboard (`dashboard.html`)
 
@@ -70,7 +71,7 @@ Menu utama setelah login.
 - History Transaksi membuka modal berisi tabel pesanan yang pernah dibuat.
 - Halaman ini dan halaman lain di dalam aplikasi hanya bisa dibuka setelah login. Jika belum login, pengguna dikembalikan ke halaman login.
 
-![Dashboard](screenshots/dashboard.png)
+<img width="914" height="398" alt="Screenshot 2026-11-04 110428" src="https://github.com/user-attachments/assets/49a6607a-92af-4ad1-863f-82b036c78282" />
 
 ### 3. Informasi Stok/Katalog (`stok.html`)
 
@@ -79,7 +80,8 @@ Menu utama setelah login.
 - Form **Tambah Stok Buku Baru** memvalidasi judul, penulis, harga (harus lebih dari 0), dan stok (bilangan bulat, minimal 0), lalu menambahkan baris baru ke tabel lewat DOM.
 - Jika gambar sampul tidak ditemukan, otomatis diganti gambar pengganti.
 
-![Katalog buku](screenshots/katalog.png)
+<img width="913" height="400" alt="Screenshot 2026-11-04 111242" src="https://github.com/user-attachments/assets/4d7a5eec-6070-4ae1-9b93-8cab7c4b7f6e" />
+
 
 ### 4. Pemesanan (`checkout.html`)
 
@@ -88,9 +90,8 @@ Menu utama setelah login.
 - Pesanan tidak bisa dibuat jika keranjang kosong atau ada isian yang tidak valid.
 - Jika berhasil, sistem membuat nomor Delivery Order dan menampilkannya di modal. Pesanan disimpan sehingga muncul di History Transaksi dan bisa dilacak di halaman tracking.
 
-![Pemesanan](screenshots/pemesanan.png)
-
-![Pesanan berhasil](screenshots/pesanan-berhasil.png)
+<img width="913" height="396" alt="Screenshot 2026-11-04 111320" src="https://github.com/user-attachments/assets/b3d40721-163d-4b0d-9536-3a0baf82552f" />
+<img width="898" height="397" alt="Screenshot 2026-11-04 111814" src="https://github.com/user-attachments/assets/17c16737-9919-4993-8499-6653279bc540" />
 
 ### 5. Informasi Pengiriman (`tracking.html`)
 
@@ -100,7 +101,7 @@ Menu utama setelah login.
 - Jika nomor tidak ditemukan, muncul alert.
 - Nomor DO contoh untuk dicoba: `DO2026001`, `DO2026002`, `DO2026003`, atau nomor dari pesanan yang baru dibuat.
 
-![Tracking pengiriman](screenshots/tracking.png)
+<img width="910" height="396" alt="Screenshot 2026-11-04 111934" src="https://github.com/user-attachments/assets/79d24975-07ce-4c61-acae-d319a73680c2" />
 
 ## Alur Berpikir Perancangan
 
