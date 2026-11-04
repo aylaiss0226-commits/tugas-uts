@@ -58,7 +58,7 @@ Pengguna memasukkan email dan password lalu menekan tombol **Login**.
 - Jika berhasil, data pengguna disimpan di `sessionStorage` lalu pengguna diarahkan ke dashboard.
 - Tombol **Lupa Password** dan **Daftar** membuka modal box. Pendaftaran memeriksa panjang nama, format email, email yang belum terpakai, password minimal 6 karakter, dan kecocokan konfirmasi password.
 
-![Halaman login](screenshots/login.png)
+![Halaman login](Screenshots)
 
 ![Modal daftar](screenshots/modal-daftar.png)
 
